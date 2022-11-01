@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //Ədədlərdən ibarət arrayın ən kiçik elementini tapın
+    var numbers = [21,58,12,32,40,15];
+    var min = numbers[0];
+    for (let i=0;i<numbers.length;i++)
+    {
+        if (numbers[i] < min)
+        {
+            min = numbers[i];
+        }
+    }   
+    console.log(min);
+    //Ədədlərdən ibarət arrayda neçə rəqəm olduğunu ekrana çap edin 
+    var numbers2= [2, 4, 21, 58, 1, 2, 32, 4, 15 ];
+    var count = 0;
+    for (var i = 0; i < numbers2.length; i++)
+    {
+        if (numbers2[i]<=9)
+        {
+            count++;
+        }
+    }
+    console.log(count);
+    </script>
+</body>
+</html>
